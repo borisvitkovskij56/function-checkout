@@ -1,0 +1,3 @@
+ public function checkout($branch) {
+        if (isset($this->branches[$branch])) {
+            $this->currentBranch = $branch;
